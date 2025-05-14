@@ -110,6 +110,7 @@ var Configuration = map[string]PathConfig{
 	"zip":         Allowed,
 	"date":		   Allowed,
 	"tar":		   Allowed,
+	"perl":        Allowed,
 	// Host toolchain is removed. In-tree toolchain should be used instead.
 	// GCC also can't find cc1 with this implementation.
 	"ar":         Forbidden,
